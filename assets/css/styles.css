@@ -1,16 +1,23 @@
 * {
   box-sizing: border-box;
+  --ash-gray: #cad2c5ff;
+  --dark-sea-green: #84a98cff;
+  --hookers-green: #52796fff;
+  --dark-slate-gray: #354f52ff;
+  --charcoal: #2f3e46ff;
 }
 
-body {
-  margin: 0px;
+.body {
+  margin: 10px;
   font-family: "Noto Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
 /* --navigation bar */
 .nav-box {
   display: flex;
   flex-direction: row;
+  background-color: #84a98cff;
 }
 
 .about-div {
@@ -42,19 +49,161 @@ body {
   text-align: right;
 }
 /* --about me section */
+
+.about-me-section {
+  background-color: #cad2c5ff;
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  margin-top: 5%;
+  width: 20%;
 }
 .name {
-  font-style: oblique;
+  font-style: Noto Sans;
   font-size: x-large;
   text-align: center;
 }
 /* --project section */
 .project-section {
   display: flex;
+  flex-direction: column;
+}
+
+.projects-title {
+  font-size: x-large;
+  text-align: center;
+}
+
+/* project cards */
+
+/* box one*/
+
+.project-one-box {
+  display: flex;
   flex-direction: row;
+  float: left;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  border-style: groove;
+}
+
+.placeholder-one {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+. .project-two-box {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  border-style: groove;
+}
+
+.placeholder-two {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.project-three-box {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  border-style: groove;
+}
+
+.placeholder-three {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.project-four-box {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  border-style: groove;
+}
+
+.placeholder-four {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.project-five-box {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  border-style: groove;
+}
+
+.placeholder-five {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.project-six-box {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-bottom: 2%;
+  border-style: groove;
+}
+
+.placeholder-six {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.project-seven-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+}
+
+.placeholder-seven {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.contacts-section {
+}
+.contacts-title {
+  text-align: center;
+}
+.contact-info-one {
 }
