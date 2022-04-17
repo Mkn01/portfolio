@@ -68,10 +68,20 @@
   font-size: x-large;
   text-align: center;
 }
+.about-me-info {
+  font-size: medium;
+  text-align: center;
+}
+
+.skills {
+  font-size: x-large;
+  text-align: center;
+}
 /* --project section */
-.project-section {
+.projects-section {
   display: flex;
   flex-direction: column;
+  background-color: #52796fff;
 }
 
 .projects-title {
@@ -98,6 +108,9 @@
   margin-left: 0px;
   margin-right: 20px;
   width: 25%;
+}
+
+.project-one {
 }
 
 . .project-two-box {
@@ -200,7 +213,10 @@
   width: 85%;
 }
 
-.contacts-section {
+.contact-section {
+  background-color: #cad2c5ff;
+  display: flex;
+  flex-direction: column;
 }
 .contacts-title {
   text-align: center;
