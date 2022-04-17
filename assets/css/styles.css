@@ -10,3 +10,13 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.name {
+  font-style: oblique;
+  font-size: x-large;
+  text-align: center;
+}
+.project-section {
+  display: flex;
+  flex-direction: row;
+}
