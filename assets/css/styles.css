@@ -4,18 +4,56 @@
 
 body {
   margin: 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
+/* --navigation bar */
 .nav-box {
   display: flex;
   flex-direction: row;
 }
 
+.about-div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.projects-div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.contact {
+  text-align: right;
+}
+/* --about me section */
+.portfolio-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .name {
   font-style: oblique;
   font-size: x-large;
   text-align: center;
 }
+/* --project section */
 .project-section {
   display: flex;
   flex-direction: row;
