@@ -18,7 +18,7 @@ Change and improve the text fonts and overall appearance of webpage.
 
 ## Deployed URL
 
-You can find the application deployed to github pages [here](https://github.com/surajverma2587)
+You can find the application deployed to github pages [here] (http://127.0.0.1:5501/portfolio/index.html#about-me)
 
 ## Technologies
 
