@@ -105,6 +105,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  transition: 200ms transform ease-in-out;
+}
+
+.head-shot:hover {
+  transform: scale(1.025);
 }
 
 .about-me {
@@ -113,5 +118,71 @@ body {
   margin-right: auto;
   width: 600px;
   text-align: center;
-  border-radius: 25%;
+}
+/* Project section */
+.project-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.img.card-image {
+  padding: 0;
+  overflow: hidden;
+}
+.img.card-image > img {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+.project-card {
+  padding: 1rem;
+  background-color: #4a4e69ff;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.card-body {
+  font-size: 0.9rem;
+}
+.card-footer {
+  margin-top: 1rem;
+}
+
+.btn {
+  background: #22223bff;
+  color: white;
+  border: #22223bff;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 25rem;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background: hsl(200, 50%, 60%);
+}
+
+.btn.btn-outline {
+  background: none;
+  border: 1px solid var(--color);
+  color: var(--color);
+}
+
+.btn.btn-outline:hover,
+.btn.btn-outline:focus {
+  background: hsl(200, 50%, 90%);
+}
+
+.btn + .btn {
+  margin-left: 0.25rem;
 }
