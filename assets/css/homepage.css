@@ -138,17 +138,18 @@ body {
   object-position: center;
 }
 .project-card {
-  padding: 1rem;
   background-color: #4a4e69ff;
-  padding: 1rem;
+  --padding: 1rem;
   border: none;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   border-radius: 0.25rem;
+  overflow: hidden;
 }
 
 .card-title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 .card-body {
   font-size: 0.9rem;
@@ -185,4 +186,24 @@ body {
 
 .btn + .btn {
   margin-left: 0.25rem;
+}
+
+/* project cards images */
+.card-img {
+  overflow: hidden;
+  padding: var(--padding);
+  padding: 0;
+}
+
+.card-img > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.project-card:hover > .card-img > img {
+  transform: scale(1.025);
 }
