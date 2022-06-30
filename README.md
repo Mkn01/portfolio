@@ -18,7 +18,7 @@ Change and improve the text fonts and overall appearance of webpage.
 
 ## Deployed URL
 
-You can find the application deployed to github pages [here] (http://127.0.0.1:5501/portfolio/index.html#about-me)
+You can find the application deployed to github pages [here] ()
 
 ## Technologies
 
@@ -35,9 +35,3 @@ You can find the application deployed to github pages [here] (http://127.0.0.1:5
 (./assets/images/portfolio 3.jpg)
 (./assets/images/portfolio 4.jpg)
 (./assets/images/portfolio 5.jpg)
-
-### Mobile Viewports
-
-(./assets/images/port mob 1.jpg)
-(./assets/images/port mob 2.jpg)
-(./assets/images/port mob 3.jpg)
