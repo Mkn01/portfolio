@@ -232,6 +232,11 @@ body {
 .project-one-card:hover > .pro-one-card-img > img {
   transform: scale(1.025);
 }
+
+.skills-section {
+  background-color: #f2e9e4ff;
+  text-align: center;
+}
 /* footer  */
 
 .footer {
@@ -240,16 +245,21 @@ body {
   align-items: center;
   background-color: #22223bff;
   color: white;
-  padding: 2.5%;
 }
-
+.contactHeader {
+  padding-top: 2%;
+  text-align: center;
+  margin-left: 5.5%;
+}
 .linkdenIcon {
-  margin-left: 45%;
+  margin-left: 50%;
   position: relative;
 }
 .gitIcon {
-  margin-right: 10%;
   position: relative;
+}
+.resumeIcon:hover {
+  background-color: #4a4e69ff;
 }
 .gitIcon:hover {
   background-color: #4a4e69ff;
