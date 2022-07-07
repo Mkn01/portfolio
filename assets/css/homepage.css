@@ -159,7 +159,7 @@ body {
 }
 
 .btn {
-  background: #22223bff;
+  background: #4a4e69ff;
   color: white;
   border: #22223bff;
   font-size: 1rem;
@@ -232,13 +232,17 @@ body {
 .project-one-card:hover > .pro-one-card-img > img {
   transform: scale(1.025);
 }
+/* footer  */
 
+.contactLinks {
+}
+
+.linkdenIcon {
+  margin-left: 45%;
+  margin-right: 55%;
+  display: block;
+}
 .gitInfoIcon {
   margin-left: 50%;
   margin-right: 50%;
-}
-
-.emailInfoIcon {
-  margin-left: 45%;
-  margin-right: 55%;
 }
