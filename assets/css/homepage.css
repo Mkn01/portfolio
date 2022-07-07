@@ -234,15 +234,28 @@ body {
 }
 /* footer  */
 
-.contactLinks {
+.footer {
+  margin-top: 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #22223bff;
+  color: white;
+  padding: 2.5%;
 }
 
 .linkdenIcon {
   margin-left: 45%;
-  margin-right: 55%;
-  display: block;
+  position: relative;
 }
-.gitInfoIcon {
-  margin-left: 50%;
-  margin-right: 50%;
+.gitIcon {
+  margin-right: 10%;
+  position: relative;
+}
+.gitIcon:hover {
+  background-color: #4a4e69ff;
+  border-radius: 25rem;
+}
+.linkdenIcon:hover {
+  background-color: #4a4e69ff;
+  border-radius: 25rem;
 }
