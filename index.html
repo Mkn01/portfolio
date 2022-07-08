@@ -1,134 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gurmanpreet Nagra</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;500;600;800&family=Roboto:wght@100;300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
-    <title>Gurmanpreet</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-  <body>
-    <!-- nav bar with links  -->
-    <nav class="nav-box">
-      <div class="about-div">
-        <a class="about-me" href="#about-me">About me</a>
-      </div>
-      <div class="projects-div">
-        <a class="projects" href="#projects">Projects</a>
-      </div>
-      <div class="contact-div">
-        <a class="contact" href="#contact">Contact</a>
-      </div>
-    </nav>
-    <!-- about me section  -->
-    <main>
-      <div class="about-me-section" id="about-me">
-        <img
-          class="portfolio-image"
-          src="./assets/images/20220217_204347[2155].jpg"
-          alt="headshot image"
-        />
 
-        <h1 class="name">Gurmanpreet Nagra</h1>
-        <p class="about-me-info">
-          A self-motivated and hardworking individual with a passion to achieve
-          success. An organised, results-oriented customer service professional,
-          with an excellent track record of significantly increasing service
-          quality and sales. I possess outstanding communication,
-          relationship-building and influencing skills; competent in building
-          customer relationships which inspire confidence and loyalty. A highly
-          efficient and individual who is able to adapt well to new environments
-          and learn new processes quickly to achieve outstanding results. Strong
-          ability to multi-task and prioritise, and able to organise and support
-          colleagues alike. Seeking a new challenge where I will be able to
-          utilise my skills and develop my abilities
-        </p>
-        <!-- skills section  -->
-        <h2 class="skills">skills</h2>
-        <ul class="skills-info">
+  <body>
+    <nav class="navbar">
+      <div class="name">Gurmanpreet Nagra</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
           <li>
-            Administration – ability to successfully undertake a wide range of
-            complex administrative duties
+            <a class="home" href="#about-me">About me</a>
           </li>
           <li>
-            Customer Service – Demonstrates outstanding customer service skills
+            <a class="projects" href="#projects">Projects</a>
           </li>
           <li>
-            Communication – Communicates effectively at all levels with
-            colleagues, managers and clients
+            <a class="skills" href="#skills">Skills</a>
           </li>
           <li>
-            Organizational skills – Ability to undertake several tasks
-            simultaneously
-          </li>
-          <li>
-            Team Working – Extensive experience of working with others and
-            working independently under own initiative
+            <a class="contact" href="#contact">contact</a>
           </li>
         </ul>
       </div>
+    </nav>
 
-      <!-- project cards container  -->
-      
-        <span class="project-section">Projects<span>
-      
-      
-        <a href="https://mkn01.github.io/marketing-agency-refactor/#social-media-marketing" class="card">
-            <div class="project-card">
-              <h2 class="title">Marketing Agency refactor</h2>
-            </div>
-        </a>
-              
-        <a href="https://github.com/Mkn01/portfolio" class="card">
-            <div class="project-card">
-              <h2 class="title">Portfolio</h2>
-            </div>
-        </a>
-      
-        <a href="https://mkn01.github.io/random-password-generator/" class="card">
-            <div class="project-card">
-              <h2 class="title">Password Generator</h2>
-             
-            </div>
-        </a>
+    <section class="about-me-section" id="about-me">
+      <div class="img-div">
+        <img
+          class="head-shot"
+          alt="headshot"
+          src="./assets//images/port image.jpg"
+        />
+      </div>
+      <div class="about-me">
+        <h1 class="heading">ABOUT ME</h1>
+        <p>
+          A full stack web developer seeking new challenges where I will be able
+          to utilize my skills and develop my abilities. Feel free to checkout
+          my projects to see the work i've done so far.
+        </p>
+      </div>
+    </section>
+    <!-- project cards container  -->
 
-        <a href="https://github.com/Mkn01/code-quiz" class="card">
-          <div class="project-card">
-            <h2 class="title">Code Quiz</h2>
-           
-          </div>
-      </a>
-
-      <a href="https://mkn01.github.io/random-password-generator/" class="card">
-        <div class="project-card">
-          <h2 class="title">Day planner</h2>
-         
-        </div>
-    </a>
-    <a href="https://mkn01.github.io/random-password-generator/" class="card">
+    <div class="project-section" id="projects">
       <div class="project-card">
-        <h2 class="title">Weather Dashboard</h2>
-       
+        <div class="card-img">
+          <img
+            src="./assets/images/marketing-agency.jpg"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+
+        <div class="card-title">Marketing Agency Refactor</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/marketing-agency-refactor/tree/dev">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+
+          <a href="https://mkn01.github.io/marketing-agency-refactor/">
+            <button class="btn">Deployed</button>
+          </a>
+        </div>
       </div>
-  </a>
-  <a href="https://am0031.github.io/event-planning/" class="project-1">
-    <div class="project-card">
-      <h2 class="title">Event Planning</h2>
-     
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/screencapture-127-0-0-1-5501-homepage-html-2022-07-08-00_29_12.png"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+        <div class="card-title">Portfolio</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/portfolio/tree/update">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/password.jpg"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+        <div class="card-title">Password Generator</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/password-generator/tree/dev">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+          <a href="https://mkn01.github.io/random-password-generator/">
+            <button class="btn">Deployed</button>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/screencapture-mkn01-github-io-code-quiz-2022-07-08-01_46_29.png"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+        <div class="card-title">Code Quiz</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/code-quiz/tree/dev">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+          <a href="">
+            <button class="btn">Deployed</button>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/day planner.avif"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+        <div class="card-title">Day Planner</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/day-planner/tree/dev">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+          <a href="">
+            <button class="btn">Deployed</button>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/weather-dash.avif"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+        <div class="card-title">Weather Dashboard</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/weather-dashboard/tree/dev">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+          <a href="">
+            <button class="btn">Deployed</button>
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+
+        <div class="card-title">Professional Readme Generator</div>
+
+        <div class="card-footer">
+          <a
+            href="https://github.com/Mkn01/professional-readme-generator/tree/dev"
+          >
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="card-img">
+          <img
+            src="./assets/images/kelly-sikkema-lJrTJHzQjOs-unsplash.jpg"
+            alt="marketing website screenshot"
+            class="img-for-card"
+          />
+        </div>
+
+        <div class="card-title">Company Team Profile App</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Mkn01/company-team-profile-app/tree/dev">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="project-one-card">
+        <div class="pro-one-card-img">
+          <img
+            src="./assets/images/event planning.jpg"
+            alt="marketing website screenshot"
+            class="img-for-pro-card"
+          />
+        </div>
+        <div class="card-title">Event Planning</div>
+
+        <div class="card-footer">
+          <a href="https://github.com/Am0031/event-planning">
+            <img
+              src="./assets/images/GitHub-Mark-32px.png"
+              alt="gitHub icon"
+              class="btn"
+            />
+          </a>
+          <a href="https://am0031.github.io/event-planning/">
+            <button class="btn">Deployed</button>
+          </a>
+        </div>
+      </div>
     </div>
-</a>
-      <!-- contact info  -->
-      <div class="contact-section" id="contact">
-        <h1 class="contacts-title">Contact</h1>
-        <p class="contact-info-one">Gurmanpreetnagra@gmail.com</p>
+    <!-- skills-section  -->
+    <div class="skills-section" id="skills">
+      <h2>SKILLS</h2>
+      <h3>TECHNICAL</h3>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>My SQL</li>
+      <li>NODE.JS</li>
+      <li>JAVASCRIPT</li>
+      <li>JSON</li>
+      <li>SEQUELIZE.JS</li>
+      <li>EXPRESS.JS</li>
+
+      <h3>INTERPERSONAL SKILLS</h3>
+      <li>CUSTOMER FOCUSED SERVICE</li>
+      <li>TEAMWORK</li>
+      <li>COMMUNICATION</li>
+      <li>LIAISON</li>
+    </div>
+
+    <!-- footer  -->
+    <footer id="contact" class="footer">
+      <h3 class="contactHeader">Contact</h3>
+      <div class="contactLinks">
+        <a href="https://www.linkedin.com/in/gurmanpreet-nagra-3b2a46212/">
+          <img
+            src="./assets/images/icons8-linkedin-circled-32.png"
+            alt="linkden"
+            class="linkdenIcon"
+          />
+        </a>
+        <a href="https://github.com/Mkn01">
+          <img
+            src="./assets/images/GitHub-Mark-32px.png"
+            alt="gitHub"
+            class="gitIcon"
+          />
+        </a>
+        <a
+          href="https://www.canva.com/design/DAFFx1V0Jlg/NpisnnGjl5OFkxBOI5dD0A/view?utm_content=DAFFx1V0Jlg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+        >
+          <img
+            src="./assets/images/icons8-resume-32.png"
+            alt="resume"
+            class="resumeIcon"
+          />
+        </a>
       </div>
-    </main>
+    </footer>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
