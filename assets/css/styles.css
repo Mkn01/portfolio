@@ -269,3 +269,25 @@ body {
   background-color: #4a4e69ff;
   border-radius: 25rem;
 }
+
+.project-two-card {
+  background-color: #4a4e69ff;
+  --padding: 1rem;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  width: 750px;
+  margin-left: 400px;
+}
+.pro-two-card-img > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: fill;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+.project-two-card:hover > .pro-one-card-img > img {
+  transform: scale(1.025);
+}
