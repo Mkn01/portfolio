@@ -9,12 +9,12 @@
 
 ## Description
 
-I have created a webpage in which I can showcase my projects and skills.
+I have created a webpage to showcase my projects and skills.
 
 ## Deployed URL
 
 - Deployed link [here](https://mkn01.github.io/portfolio/)
-- Git Hub Repository [here](https://github.com/Mkn01/portfolio/tree/update)
+- GitHub Repository [here](https://github.com/Mkn01/portfolio/tree/update)
 
 ## Technologies
 
@@ -28,4 +28,4 @@ I have created a webpage in which I can showcase my projects and skills.
 
 ### Desktop Viewports
 
-![Desktop viewport](./assets/images/screencapture-127-0-0-1-5501-homepage-html-2022-07-08-00_29_12.png)
+![Desktop viewport](./assets/images/screencapture-mkn01-github-io-portfolio-2022-07-31-12_06_14.png)
